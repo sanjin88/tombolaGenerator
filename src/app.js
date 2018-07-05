@@ -66,8 +66,8 @@ const generatePdf = (blocks) => {
         theme: 'plain', // 'striped', 'grid' or 'plain'
         styles: {
           fontSize: 10,
-          lineWidth: 0.1,
-          cellPadding: { top: 1.5, bottom: 0.7 }, // a number, array or object (see margin below)
+          lineWidth: 0,
+          cellPadding: { top: 1.50, bottom: 0.68 }, // a number, array or object (see margin below)
           //  font: "NotoSansCJKjp", // helvetica, times, courier
           // fontStyle: 'normal', // normal, bold, italic, bolditalic
           lineColor: 0,
@@ -76,7 +76,7 @@ const generatePdf = (blocks) => {
           textColor: 0,
           halign: 'center', // left, center, right
           //  valign: 'middle', // top, middle, bottom
-          columnWidth: 7.68, // 'auto', 'wrap' or a number
+          columnWidth: 7.7, // 'auto', 'wrap' or a number
         },
         headerStyles: {},
         bodyStyles: {},
