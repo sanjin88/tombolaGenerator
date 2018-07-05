@@ -17,8 +17,8 @@ document.querySelector("#app").style.display = "block";
 
 $('.main button').on('click', (event) => {
   const numberOfBlocks = $('.main input').val();
-  if (numberOfBlocks < 1 || numberOfBlocks > 1000000) {
-    return alert("Unesite broj od 1 do 1000000");
+  if (numberOfBlocks < 1 || numberOfBlocks > 1666) {
+    return alert("Unesite broj od 1 do 1666");
   }
   $('.main button').html('U toku!');
   disableInput(true);
