@@ -49,7 +49,7 @@ const generatePdf = (blocks) => {
     let position = 26.78;
     block.forEach((serie, serieKey) => {
       var columns = ["", "", "", "", "", "", "", "", ""];
-      var serieNumber = blockKey * 6 + serieKey + 1;
+      var serieNumber = blockKey * 6 + (6 - serieKey);
       doc.setFontSize(6);
       doc.text(68.5, position - 1, "Broj " + ("0000" + serieNumber).slice(-4));
       var rows = [Array(9), Array(9), Array(9)];
